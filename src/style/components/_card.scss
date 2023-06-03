@@ -1,0 +1,43 @@
+
+.card-wrapper {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+    @include vertical-list;
+
+    .card-item {
+        border-radius: 4px;
+        box-shadow: $box-shadow;
+        gap: 20px;
+        padding: 20px;
+        @include vertical-list;
+    }
+
+    .card-title {
+        padding-bottom: 15px;
+    }
+
+    .edu-exp-container {
+        @include vertical-list;
+        gap: 40px;
+
+        li {
+            gap: 20px;
+            @include vertical-list;
+        }
+    }
+
+        .date {
+            align-items: center;
+            display: flex;
+            color: #009688;
+            gap: 10px;
+
+            .date-img {
+                &::before {
+                    content: url('../../resources/icons/calendar.svg');
+                }
+            }
+        }
+
+}

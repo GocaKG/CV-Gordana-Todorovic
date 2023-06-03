@@ -1,0 +1,9 @@
+// media aliases and breakpoints
+$screen-sm-max: 768px;
+
+// media devices
+@mixin media-screen-xs {
+    @media screen and (max-width: #{$screen-sm-max}) {
+      @content;
+    }
+}

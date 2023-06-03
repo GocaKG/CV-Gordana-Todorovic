@@ -1,0 +1,54 @@
+{
+    "experience": [
+        {
+        "id": "experiance-1",
+        "title": "Milenijum kompanija",
+        "date": "Novembar 2019 - sada",
+        "description": "Koordinator za razvoj eksternih prodajnih kanala za region Centralne Srbije – middle level management; Support external sales network; Monitoring and market analysis; Gathering relevant data and reporting; Analysis and control of plans realisation; Continuously analyses and benchmark the area of non-life insurance; Creation and maintenance of promptness for expert procedures and instructions for work; Data processing in applicative software and proposing finishing information system; Monitoring, preparation and completion documentation for public purchases; Complete administration of Branch Kragujevac and flow of documentation; Risk assessment and underwriting offers for corporative clients Maintenance, development and servicing of the sales network."
+        },
+        {
+        "id": "experiance-2",
+        "title": "Milenijum kompanija",
+        "date": "Januar 2016 - Novembar 2019",
+        "description": "Srpski"
+        },
+        {
+            "id": "experiance-3",
+            "title": "Magna Styer ECH Hungaria Kft.",
+            "date": "Novembar 2007 - Mart 2012",
+            "description": "marketing and sales assistant of general management, including: projects negotiation, keeping contact with the customers and partners, preparing presentations internal (for mother company in Graz) and external; cooperating with schools, faculties and medias; editing internet/intranet content and presentations; producing short advertising movies and ads"
+        },
+        {
+           "id": "experiance-4",
+           "title": "Globus TV, lokalna TV stanica Kragujevac",
+           "date": "Jun 2000 - Jun 2001",
+           "description": "journalist and marketing assistant"
+            }
+    ],
+
+    "education": [
+        {
+        "id": "education-1",
+        "title": "Univerzitet Kragujevac, Ekonomski fakulte",
+        "date": "Oktobar 1998 - Mart 2006",
+        "description": "Medjunarodni menadzment"
+        },
+        { 
+        "id": "education-2",
+        "title": "Prva Kragujevacka gimnazija, jezicki smer",
+        "date": "Septembar 1994 - Jun 1998",
+        "description": ""
+        }
+    
+    ],
+    "contact": [
+        {
+            "id":"contact",
+            "city":"Kragujevac",
+            "adress":"Kralja Milana IV 19b/2",
+            "phone":"+381 63 360 244",
+            "mail":"kg.goca@gmail.com"
+        }
+
+    ]
+}

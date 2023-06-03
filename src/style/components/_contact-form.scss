@@ -1,0 +1,19 @@
+.contact-form-wrapper {
+    align-items: center;
+    box-shadow: $box-shadow;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    @include vertical-list;
+
+    .contact-form-field {
+        position: relative;
+        @include vertical-list;
+
+        .error-message {
+            bottom: -24px;
+            left: 0;
+            position: absolute;
+        }
+    }
+}

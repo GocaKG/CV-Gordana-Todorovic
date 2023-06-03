@@ -1,0 +1,47 @@
+@import '../style/abstract/variables';
+@import '../style/abstract/mixins/media-query';
+@import '../style/abstract/mixins/vertical-list';
+@import '../style/base/reset';
+@import '../style/base/typogaphy';
+@import '../style/components/avatar';
+@import '../style/components/card';
+@import '../style/components/contact-form';
+@import '../style/components/contact';
+
+.cv-wrapper {
+  @include vertical-list;
+  gap: 20px;
+  padding: 20px;
+
+  .language-combobox {
+    align-self: flex-end;
+  }
+
+  .cv-content-wrapper {
+    display: flex;
+    gap: 20px;
+
+    @include media-screen-xs {
+      flex-direction: column;
+    }
+  }
+
+  .avatar-wrapper {
+    border-radius: 4px;
+    box-shadow: $box-shadow;
+    flex: 40%;
+  }
+
+  .card-wrapper {
+    flex: 60%
+  }
+
+  .modal {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
