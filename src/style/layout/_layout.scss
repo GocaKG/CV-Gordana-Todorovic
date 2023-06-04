@@ -1,0 +1,74 @@
+.cv-wrapper {
+    @include vertical-list;
+    gap: 20px;
+    padding: 20px;
+
+    .cv-header-language {
+      align-items: end;
+      position: relative;
+      @include vertical-list;
+  
+      .dropdown-menu {
+        box-shadow: $box-shadow;
+        border-radius: 16px;
+        right: 0;
+        margin-top: 10px;
+        position: absolute;
+        top: 40px;
+        width: 60px;
+  
+          .dropdown-option {
+            display: block;
+            padding: 10px;
+  
+            &.active {
+              background-color: $dropdown-button-selected-item-bg;
+          }
+  
+  
+            &:hover {
+              background-color: lighten($color: $dropdown-button-selected-item-bg, $amount: 8%);
+              overflow: hidden;
+            }
+  
+              &:first-child {
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
+                @include icon(english);
+              }
+  
+              &:last-child {
+                border-bottom-left-radius: 16px;
+                border-bottom-right-radius: 16px;
+                  @include icon(serbia);
+              }
+  
+              i {
+                display: block;
+                margin: 0 auto;
+                width: 60%;
+              }
+          }
+      }
+  }
+  
+    .cv-content-wrapper {
+      display: flex;
+      gap: 20px;
+  
+      @include media-screen-xs {
+        flex-direction: column;
+      }
+    }
+  
+    .avatar-wrapper {
+      border-radius: 4px;
+      box-shadow: $box-shadow;
+      flex: 40%;
+    }
+  
+    .card-wrapper {
+      flex: 60%
+    }
+}
+

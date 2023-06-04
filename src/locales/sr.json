@@ -2,34 +2,37 @@
     "experience": [
         {
         "id": "experiance-1",
-        "title": "Milenijum kompanija",
+        "title": "Milenijum Osiguranje AD",
         "date": "Novembar 2019 - sada",
-        "description": "Koordinator za razvoj eksternih prodajnih kanala za region Centralne Srbije – middle level management; Support external sales network; Monitoring and market analysis; Gathering relevant data and reporting; Analysis and control of plans realisation; Continuously analyses and benchmark the area of non-life insurance; Creation and maintenance of promptness for expert procedures and instructions for work; Data processing in applicative software and proposing finishing information system; Monitoring, preparation and completion documentation for public purchases; Complete administration of Branch Kragujevac and flow of documentation; Risk assessment and underwriting offers for corporative clients Maintenance, development and servicing of the sales network."
-        },
+        "description": "Koordinator za razvoj eksternih kanala prodaje u regionu Centralne Srbije – menadžment srednjeg nivoa; Podrška spoljnoj prodajnoj mreži; Monitoring i analiza tržišta; Prikupljanje relevantnih podataka i izveštavanje; Analiza i kontrola realizacije planova; Kontinuirano analizira i uspoređuje oblast neživotnog osiguranja; Kreiranje i održavanje ažurnosti stručnih postupaka i uputstva za rad; Obrada podataka u aplikativnom softveru i predlaganje dorade informacionog sistema; Praćenje, priprema i kompletiranje dokumentacije za javne nabavke; Kompletna administracija Filijale Kragujevac i tok dokumentacije; Procena rizika i ponude za osiguranje za korporativne klijente Održavanje, razvoj i servisiranje prodajne mreže."
+    },
         {
         "id": "experiance-2",
         "title": "Milenijum kompanija",
         "date": "Januar 2016 - Novembar 2019",
-        "description": "Srpski"
+        "description": "Stručni saradnik filijale Kragujevac, uključujući: pripremu, praćenje i analizu prodaje; Podrška internoj i eksternoj prodajnoj mreži; Monitoring i analiza tržišta; Prikupljanje relevantnih podataka i izveštavanje; Analiza i kontrola realizacije planova; Kreiranje i održavanje ažurnosti stručnih postupaka i uputstva za rad; Obrada podataka u aplikativnom softveru i predlaganje dorade informacionog sistema; Praćenje, priprema i kompletiranje dokumentacije za javne nabavke; Kompletna administracija Filijale Kragujevac i tok dokumentacije; Procena rizika i ponude za osiguranje za korporativne klijente"
         },
         {
             "id": "experiance-3",
             "title": "Magna Styer ECH Hungaria Kft.",
             "date": "Novembar 2007 - Mart 2012",
-            "description": "marketing and sales assistant of general management, including: projects negotiation, keeping contact with the customers and partners, preparing presentations internal (for mother company in Graz) and external; cooperating with schools, faculties and medias; editing internet/intranet content and presentations; producing short advertising movies and ads"
-        },
+            "description": "Asistent za marketing i prodaju generalnog menadžmenta, uključujući: pregovaranje o projektima, održavanje kontakta sa kupcima i partnerima, pripremu internih (za matičnu kompaniju u Gracu) i eksternih prezentacija; saradnju sa školama, fakultetima i medijima; uređivanje internet/intranet sadržaja i prezentacija; proizvodnja kratkih reklamnih filmova i reklama"
+         },
         {
            "id": "experiance-4",
            "title": "Globus TV, lokalna TV stanica Kragujevac",
            "date": "Jun 2000 - Jun 2001",
-           "description": "journalist and marketing assistant"
+           "description": "novinar i marketing asistent"
             }
     ],
 
+    "firstSectionTitle": "Iskustvo",
+    "secondSectionTitle": "Obrazovanje",
+    
     "education": [
         {
         "id": "education-1",
-        "title": "Univerzitet Kragujevac, Ekonomski fakulte",
+        "title": "Univerzitet Kragujevac, Ekonomski fakultet",
         "date": "Oktobar 1998 - Mart 2006",
         "description": "Medjunarodni menadzment"
         },

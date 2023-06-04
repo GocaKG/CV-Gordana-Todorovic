@@ -1,0 +1,9 @@
+$icon-path: '../../../resources/icons/';
+
+@mixin icon($icon-name) {
+    .#{$icon-name} {
+        &::before {
+            content: url('#{$icon-path}#{$icon-name}.svg');
+        }
+    }
+}

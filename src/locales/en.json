@@ -26,6 +26,9 @@
             }
     ],
 
+    "firstSectionTitle": "Expirience",
+    "secondSectionTitle": "Education",
+
     "education": [
         {
         "id": "education-1",

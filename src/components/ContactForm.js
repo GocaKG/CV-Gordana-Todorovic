@@ -39,17 +39,16 @@ const ContactForm = () => {
     if (validateForm()) {
       setShowModal(true);
 
-      setName('');
-      setEmail('');
-      setMessage('');
-      setErrors({});
-
       setTimeout(() => {
         setShowModal(false);
+        setName('');
+        setEmail('');
+        setMessage('');
+        setErrors({});
       }, 3000);
     }
   };
-
+  
   return (
     <>
       <form onSubmit={handleSubmit} className='contact-form-wrapper'>
@@ -83,8 +82,7 @@ const ContactForm = () => {
           {errors.message && <span className="error-message">{errors.message}</span>}
         </div>
         <button type="submit">Submit</button>
-      </form>
-      {showModal && (
+        {showModal && (
         <div className="modal">
           <h2>Submitted Data:</h2>
           <p>Name: {name}</p>
@@ -92,6 +90,7 @@ const ContactForm = () => {
           <p>Message: {message}</p>
         </div>
       )}
+      </form>
     </>
   );
 };

@@ -1,19 +1,38 @@
 .contact-form-wrapper {
     align-items: center;
     box-shadow: $box-shadow;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
-    padding: 20px;
+    padding: 60px 20px;
+    position: relative;
     @include vertical-list;
 
     .contact-form-field {
         position: relative;
+        width: 300px;
         @include vertical-list;
 
         .error-message {
+            color: $primary-color;
+            font-family: 'font-italic', sans-serif;
             bottom: -24px;
             left: 0;
             position: absolute;
         }
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    .modal {
+        background-color: white;
+        border-radius:( $input-border-radius * 4);
+        box-shadow: $box-shadow;
+        left: 50%;
+        padding: 60px 80px;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 }

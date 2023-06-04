@@ -1,0 +1,41 @@
+button {
+    align-items: center;
+    background-color: $button-bg-color;
+    border: $button-border;
+    border-radius: 6px;
+    box-shadow: $button-box-shadow;
+    color: $button-text-color;
+    cursor: pointer;
+    display: flex;
+    font-family: $button-font-family;
+    font-size: $button-font-size;
+    gap: 8px;
+    justify-content: center;
+    outline: 0;
+    padding: 8px 12px;
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;
+    vertical-align: middle;
+
+        &:hover {
+            cursor: pointer;
+            background-color: lighten($color: $button-hover-text-color, $amount: 5%);
+            border-color: $button-hover-border;
+            box-shadow: $button-hover-box-shadow;
+            transition-duration: 0.1s;
+        }
+
+        &.dropdown-button {
+            background-color: transparent;
+            border: none;;
+            box-shadow: none;
+            @include icon(language);
+
+            &:hover,
+            &:focus {
+                background-color: none;
+                border-color: none;
+                box-shadow: $button-hover-box-shadow;
+            }
+        }
+}

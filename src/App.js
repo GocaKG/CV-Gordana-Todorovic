@@ -8,18 +8,41 @@ import ContactForm from './components/ContactForm';
 const App = () => {
   const [language, setLanguage] = useState('en');
   const data = language === 'en' ? dataEn : dataSr;
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleLanguageChange = (event) => {
-    console.log(event.target.value)
-    setLanguage(event.target.value);
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
   };
 
+  const handleOptionClick = (option) => {
+    setLanguage(option);
+    setIsOpen(false);
+  };
   return (
     <div className="cv-wrapper">
-        <select className='language-combobox' value={language} onChange={handleLanguageChange}>
-          <option value="en">English</option>
-          <option value="sr">Serbian</option>
-      </select>
+      <div className="cv-header-language">
+      <button className="dropdown-button" onClick={handleToggle}>
+        <i className="language"></i>
+      </button>
+      {isOpen && (
+        <div className="dropdown-menu">
+          <span
+            className={`dropdown-option${language === 'en' ? ' active' : ''}`}
+            value="en"
+            onClick={() => handleOptionClick('en')}
+          >
+            <i className="english" />
+          </span>
+          <span
+            value="en"
+            className={`dropdown-option${language === 'sr' ? ' active' : ''}`}
+            onClick={() => handleOptionClick('sr')}
+          >
+            <i className="serbia"/>
+          </span>
+        </div>
+      )}
+    </div>
       <div className='cv-content-wrapper'>
         <Avatar />
         <Card data={data}/>
